@@ -1,0 +1,55 @@
+.header {
+   background-color: var(--secondary-bg-color);
+   background-image: url(https://scontent.flwo4-1.fna.fbcdn.net/v/t1.6435-9/94261904_250892156287767_786610645943451648_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=300f58&_nc_ohc=b1l8KGqQuv8AX--Dp5L&_nc_ht=scontent.flwo4-1.fna&oh=00_AfD8ACF23HS2TdgwjNDHdd40kTsuFoG2ncBIVlmHarVV6A&oe=655F8151);
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__nav-list li:not(:last-child) {
+    margin-right: 70px;
+}
+
+.header__nav-item {
+    padding: 12px 18px;
+    border-radius: 40px;
+}
+
+.header__nav-item:hover,
+.header__nav-item:focus {
+    background-color: var(--main-text-color);
+    color: var(--background-color);
+    box-shadow: 0px 0px 39px 5px rgba(243,188,119,1);
+    -moz-box-shadow: 0px 0px 39px 5px rgba(243,188,119,1);
+    box-shadow: 0px 0px 39px 5px rgba(243,188,119,1);
+    cursor: pointer;
+}
+
+
+.logo {
+    padding: 6px 4px;
+
+    background-color: white;
+    border-radius: 2px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 800;
+    font-size: 48px;
+
+    color:black;
+}
+
+.header__link {
+    font-size: 26px;
+    font-weight: 700;
+}

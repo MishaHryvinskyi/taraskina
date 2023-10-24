@@ -5,5 +5,11 @@
 @import './portfolio';
 // base
 @import './base/reset';
+@import './base/base';
 // utils
 @import './utils/variables';
+// components
+@import './components/container';
+// layouts
+@import './layouts/header';
+@import './layouts/footer';
