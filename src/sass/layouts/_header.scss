@@ -1,6 +1,5 @@
 .header {
    background-color: var(--secondary-bg-color);
-   background-image: url(https://scontent.flwo4-1.fna.fbcdn.net/v/t1.6435-9/94261904_250892156287767_786610645943451648_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=300f58&_nc_ohc=b1l8KGqQuv8AX--Dp5L&_nc_ht=scontent.flwo4-1.fna&oh=00_AfD8ACF23HS2TdgwjNDHdd40kTsuFoG2ncBIVlmHarVV6A&oe=655F8151);
    padding-top: 30px;
    padding-bottom: 30px;
 }
@@ -47,6 +46,14 @@
     font-size: 48px;
 
     color:black;
+}
+
+.logo:hover,
+.logo:focus {
+    box-shadow: 0px 0px 39px 5px rgba(243,188,119,1);
+    -moz-box-shadow: 0px 0px 39px 5px rgba(243,188,119,1);
+    box-shadow: 0px 0px 39px 5px rgba(243,188,119,1);
+    cursor: pointer;
 }
 
 .header__link {
