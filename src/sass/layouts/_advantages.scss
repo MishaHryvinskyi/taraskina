@@ -1,0 +1,18 @@
+.advantages {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.advantages_list {
+    display: flex;
+}
+
+.advantages_list li:not(:last-child) {
+    margin-right: 60px;
+}
+
+.advantages_titles {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
