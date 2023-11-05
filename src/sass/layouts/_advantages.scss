@@ -1,12 +1,12 @@
-.advantages_list {
+.advantages__list {
     display: flex;
 }
 
-.advantages_list li:not(:last-child) {
+.advantages__list li:not(:last-child) {
     margin-right: 60px;
 }
 
-.advantages_titles {
+.advantages__titles {
     text-align: center;
     margin-bottom: 30px;
     font-size: 24px;

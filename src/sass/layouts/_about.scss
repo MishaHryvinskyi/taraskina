@@ -1,0 +1,19 @@
+.about__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__paragraph {
+    text-align: justify;
+    width: 900px;
+    margin-bottom: 10px;
+}
+
+.about__container-info {
+    margin-right: 80px;
+}
+
+.about__img {
+    border-radius: 100px;
+}
