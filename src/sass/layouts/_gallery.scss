@@ -1,0 +1,13 @@
+.gallery__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery__list-discription {
+    position: relative;
+    text-align: center;
+}
+
+.gallery__list-item {
+   border-radius: 10px;
+}
