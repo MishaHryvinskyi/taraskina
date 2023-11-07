@@ -38,6 +38,10 @@ cursor: pointer;
     margin-right: 0; 
 }
 
+.portfolio__list .portfolio__list-item:nth-last-child(-n + 5) {
+    margin-bottom: 0; 
+}
+
 .portfolio__title {
     margin: 8px 0;
 }
