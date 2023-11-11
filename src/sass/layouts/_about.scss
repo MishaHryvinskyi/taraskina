@@ -1,3 +1,8 @@
+
+.about {
+    padding-top: 80px;
+}
+
 .about__container {
     display: flex;
     justify-content: center;
@@ -5,13 +10,12 @@
 }
 
 .about__paragraph {
-    text-align: justify;
     width: 900px;
     margin-bottom: 10px;
 }
 
 .about__container-info {
-    margin-right: 80px;
+    margin-left: 80px;
 }
 
 .about__img {
