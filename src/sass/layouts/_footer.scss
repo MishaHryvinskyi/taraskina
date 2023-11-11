@@ -18,9 +18,13 @@
     }
 
     .footer__contacts-item a {
-        
         font-size: 14px;
      }
+
+    .footer__discription {
+        text-align: center;
+        margin-top: 20px;
+    }
 }
 
 .footer {
@@ -129,4 +133,15 @@
 
 .footer__soc-link {
     padding: 20px;
+}
+
+.footer__logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__discription {
+    text-align: center;
+    margin-top: 20px;
 }
