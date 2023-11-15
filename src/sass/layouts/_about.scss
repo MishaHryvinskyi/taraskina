@@ -12,6 +12,8 @@
 .about__paragraph {
     width: 900px;
     margin-bottom: 10px;
+    text-align: justify;
+    margin-bottom: 20px;
 }
 
 .about__container-info {
@@ -23,4 +25,9 @@
      box-shadow: 0px 0px 39px 5px rgba(243,188,119,1);
     -moz-box-shadow: 0px 0px 39px 5px rgba(243,188,119,1);
     box-shadow: 0px 0px 39px 5px rgba(243,188,119,1);
+}
+
+.about__link {
+    font-weight: bold;
+    color: var(--accent-color);
 }
