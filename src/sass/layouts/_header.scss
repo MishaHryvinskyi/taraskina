@@ -5,6 +5,7 @@
     background-color: var(--overley-text-color);
     text-transform: uppercase;
     text-decoration: underline;
+    margin: 0 30px;
     
     transition: 500ms  var(--timing-function);
     color:black;
@@ -16,8 +17,18 @@
     }
 }
 
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+
 
 @media screen and (min-width:320px) and (max-width:768px) {
+
+    .logo__svg {
+        display: none;
+    }
 
     .header__navigation {
         display: flex;
