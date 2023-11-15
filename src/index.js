@@ -1,5 +1,5 @@
 import { markup, portfolioEl} from '../src/js/markup-portfolio';
-
+import 'animate.css';
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 
