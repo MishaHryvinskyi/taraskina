@@ -1,13 +1,15 @@
 :root {
     // main-palete
+    --accent-color: #a55233;
     --main-text-color: #f3bc77;
     --background-color: #1d1716;
     --secondary-bg-color: #402a23;
-    --accent-color: #a55233;
 // svg-palete
     --svg-fill-first: #4267B2;
     --svg-fill-second:#C13584;
 // overley-palete
-    --overley-color: rgba(110, 110, 110, 0.5);
     --overley-text-color: #f2f2f2;
+    --overley-color: rgba(110, 110, 110, 0.5);
+// animation
+    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

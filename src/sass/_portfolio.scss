@@ -59,7 +59,7 @@
    text-align: center;
    margin: 20px;
    transition: transform 0.3s ease;
-   transition-duration: 500ms;
+   transition: 500ms  var(--timing-function);
 }
 
 .portfolio__img {
@@ -120,8 +120,7 @@
 
     background-color: var(--overley-color);
     transform: translateY(100%);
-    transition: transform 250ms ease;
-    transition-duration: 500ms;
+    transition: 500ms  var(--timing-function);
 }
 
 .portfolio__list-item:hover .portfolio__overlay {

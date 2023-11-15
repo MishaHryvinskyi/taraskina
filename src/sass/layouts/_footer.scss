@@ -60,7 +60,7 @@
     padding: 30px;
     border-radius: 50%;
     background-color: var(--background-color);
-    transition-duration: 500ms;
+    transition: 500ms  var(--timing-function);
 }
 
 .footer__soc-svg {
@@ -112,12 +112,13 @@
 }
 
 .footer__contacts-item {
-    background-color: #1d1716;
-    transition-duration: 500ms;
+    background-color: var(--background-color);
+
+    transition: 500ms  var(--timing-function);
 }
 
 .footer__contacts-item:hover {
-    background-color: #f3bc77;
+    background-color: var(--main-text-color);
     box-shadow: 0px 0px 39px 5px rgba(243,188,119,1);
     -moz-box-shadow: 0px 0px 39px 5px rgba(243,188,119,1);
     box-shadow: 0px 0px 39px 5px rgba(243,188,119,1);

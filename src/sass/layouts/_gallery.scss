@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .gallery__list .gallery__list-item:not(:last-child) {
@@ -10,6 +11,7 @@
 
 .gallery__list .gallery__list-item {
     transition: transform 0.3s ease;
+    transition: 500ms  var(--timing-function);
 }
 
 .gallery__list .gallery__list-item:hover {
