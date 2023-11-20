@@ -1,6 +1,5 @@
 .logo {
     padding: 4px 10px;
-    margin: 0 30px;
     border-radius: 5px;
 
     color:var(--logo-text-color);
@@ -14,7 +13,7 @@
     transition: 500ms  var(--timing-function);
 
     @media screen and (min-width:320px) and (max-width:767px) {
-       font-size: 36px;
+       font-size: 30px;
     }
     @media screen and (min-width:768px) {
         min-width: 330px;
