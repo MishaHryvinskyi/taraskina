@@ -1,9 +1,8 @@
 import worksItem from "../db/works.json";
 
+const portfolioEl = document.querySelector('.portfolio__list');
 
-export const portfolioEl = document.querySelector('.portfolio__list');
-
-export const markup = worksItem.map(({ url, name, size, year }) => `
+const markup = worksItem.map(({ url, name, size, year }) => `
     <li class="portfolio__list-item">
     <a href="${url}" class="portfolio__link" data-lightbox="portfolio-images">
         <div class="portfolio__img-wrapper">
@@ -18,4 +17,6 @@ export const markup = worksItem.map(({ url, name, size, year }) => `
     </a>
     </li>
 `).join('');
+
+export { portfolioEl, markup };
 
