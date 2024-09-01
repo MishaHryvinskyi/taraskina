@@ -1,9 +1,11 @@
-import { portfolioEl, getPaintsData, createMarkup } from './markup-portfolio';
+import { createMarkup } from './markup-portfolio';
+import { getPaintsData } from './API/api';
 import 'animate.css';
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 
-// Отримання даних і створення розмітки
+const portfolioEl = document.querySelector('.portfolio__list');
+
 getPaintsData().then(data => {
   if (data && portfolioEl) {
     const markup = createMarkup(data);

@@ -1,15 +1,3 @@
-const portfolioEl = document.querySelector('.portfolio__list');
-
-async function getPaintsData() {
-  try {
-    const response = await fetch("https://taraskina-api.onrender.com/api/paints");
-    const data = await response.json();
-    return data;
-  } catch (error) {
-    console.error('Помилка при завантаженні даних:', error);
-  }
-}
-
 function createMarkup(data) {
   return data.map(({ url, name, size, year }) => `
     <li class="portfolio__list-item">
@@ -28,4 +16,4 @@ function createMarkup(data) {
   `).join('');
 }
 
-export { portfolioEl, getPaintsData, createMarkup };
+export { createMarkup };
