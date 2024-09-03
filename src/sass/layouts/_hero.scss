@@ -7,14 +7,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
 
-    &__title {
-        font-size: 45px;
-        font-weight: 800;
-        color: var(--overley-text-color);
-    
-        @media screen and (min-width:768px) {
-            font-size: 64px;
-        }
+.hero__title {
+    font-size: 45px;
+    font-weight: 800;
+    color: var(--overley-text-color);
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width:768px) {
+    .hero__title {
+        font-size: 64px;
     }
 }
