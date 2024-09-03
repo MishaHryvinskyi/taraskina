@@ -1,0 +1,42 @@
+.go-to-top {
+    position: fixed;
+    display: none;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    padding: 8px 10px;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: var(--time) var(--cubic);
+    border: none;
+}
+
+.go-to-top > svg {
+    fill: var(--main-text-color);
+    transition: fill var(--time) var(--cubic);
+}
+
+.go-top--show {
+    display: block;
+}
+
+.go-to-top:hover {
+    box-shadow: var( --hover-shadow);
+    transition: var(--time) var(--cubic);
+    background-color: var(--main-text-color);
+}
+
+.go-to-top:hover > svg {
+    fill: var(--background-color);
+}
+
+@media screen and (min-width:1024px) {
+    .go-to-top > svg {
+        width: 34px;
+        height: 34px;
+    }
+
+    .go-to-top {
+        padding: 16px 20px;
+    }
+}
