@@ -15,21 +15,21 @@
     cursor: pointer;
     border-radius: 50%;
     background-color: var(--background-color);
-    transition: 500ms  var(--timing-function);
+    transition: var(--time-delay)  var(--timing-function);
 }
 
 .footer__soc-link {
     cursor: pointer;
     border-radius: 50%;
     background-color: var(--background-color);
-    transition: 500ms  var(--timing-function);
+    transition: var(--time-delay)  var(--timing-function);
 }
 
 .footer__soc-svg {
     display: inline-flex;
     fill: var(--main-text-color);
     align-items: center;
-    transition: 500ms  var(--timing-function);
+    transition: var(--time-delay)  var(--timing-function);
 }
 
 
@@ -58,7 +58,7 @@
 
 .footer__contacts-svg {
     margin-right: 20px;
-    transition: 500ms  var(--timing-function);
+    transition: var(--time-delay)  var(--timing-function);
 }
 
 .footer__contacts-item a {
@@ -71,7 +71,7 @@
     padding: 8px 20px;
     border-radius: 20px;
     background-color: var(--background-color);
-    transition: 500ms  var(--timing-function);
+    transition: var(--time-delay)  var(--timing-function);
     font-size: 18px;
     font-weight: 700;
 }
@@ -79,7 +79,7 @@
 .footer__contacts-item {
     border-radius: 20px;
     background-color: var(--background-color);
-    transition: 500ms  var(--timing-function);
+    transition: var(--time-delay)  var(--timing-function);
 }
 
 .footer__contacts-link:hover {

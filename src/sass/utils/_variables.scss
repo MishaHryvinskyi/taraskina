@@ -5,13 +5,16 @@
     --background-color: #1d1716;
     --secondary-bg-color: #402a23;
     --hover-shadow: 0px 0px 39px 5px rgba(243,188,119,1);
+    --hover-shadow-secondary: 0px 0px 20px 2px rgba(243,188,119,1);
 // svg-palete
     --svg-fill-first: #4267B2;
     --svg-fill-second:#C13584;
 // overley-palete
     --overley-text-color: #f2f2f2;
     --overley-color: rgba(110, 110, 110, 0.5);
+    --overley-secondary: rgba(0, 0, 0, 0.8);
     --logo-text-color:#000000;
 // animation
     --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    --time-delay: 500ms;
 }
