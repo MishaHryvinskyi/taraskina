@@ -1,63 +1,99 @@
-.about {
-    &__container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
+.about__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
-    &__img {
-        border-radius: 100px;
-        box-shadow: var(--hover-shadow);
-        box-shadow: var(--hover-shadow);
-        box-shadow: var(--hover-shadow);
-    }
+.about__img {
+    border-radius: 100px;
+    box-shadow: var(--hover-shadow);
+    box-shadow: var(--hover-shadow);
+    box-shadow: var(--hover-shadow);
+}
 
-    &__paragraph-info {
-        margin-bottom: 40px;
-    }
+.about__paragraph-info {
+    margin-bottom: 40px;
+    text-align:left;
 }
 
 @media screen and (min-width:320px) {
-    .about {
-        &__container {
-            flex-direction: column;
-        }
+    .about__container {
+        flex-direction: column;
+    }
 
-        &__container-img {
-            margin-bottom: 40px;
-        }
+    .about__container-img {
+        margin-bottom: 40px;
+    }
 
-        &__img {
-            width: 290px;
-        }
+    .about__img {
+        width: 290px;
+    }
 
-        &__container-info {
-            margin-left: 0;
-        }
+    .about__container-info {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width:375px) {
+    .about__img {
+        width: 345px;
+    }
+}
+
+@media screen and (min-width:425px) {
+    .about__img {
+        width: 395px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .about__img {
+        width: 450px;
     }
 }
 
 @media screen and (min-width:768px) {
-    .about {
-       &__container {
-            flex-direction: row;
-        }
+    .about__container {
+        flex-direction: row;
+    }
 
-        &__container-img {
-            margin-bottom: 0;
-        }
+    .about__container-img {
+        margin-bottom: 0;
+    }
 
-        &__container-info {
-            margin-left: 80px;
-        }
+    .about__container-info {
+        margin-left: 30px;
+    }
+
+    .about__paragraph-info {
+        margin-bottom: 30px;
+    }
+    .about__img {
+        width: 280px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .about__container-info {
+        margin-left: 40px;
+    }
+
+    .about__paragraph-info {
+        margin-bottom: 100px;
+    }
+
+    .about__img {
+        width: 280px;
     }
 }
 
 @media screen and (min-width:1200px) {
-    .about {
-        &__img {
-            width: 400px;
-        }
+    .about__img {
+        width: 280px;
+    }
+
+    .about__paragraph-info {
+        margin-bottom: 40px;
     }
 }
