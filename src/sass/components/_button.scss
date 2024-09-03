@@ -18,3 +18,12 @@
     color: var(--main-text-color);
     box-shadow: none;
 }
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+    }
+}
