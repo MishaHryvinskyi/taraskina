@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = "https://taraskina-api.onrender.com/api/paints";
-const limitItem = 10;
+const limitItem = 8;
 
 async function getPaintsData(page = 1) {
     try {
