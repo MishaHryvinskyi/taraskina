@@ -1,5 +1,5 @@
 function createMarkup(data) {
-  const markup = data.map(({ url, name, size, year }) => `
+  return data.map(({ url, name, size, year }) => `
     <li class="portfolio__list-item">
       <a href="${url}" class="portfolio__link" data-lightbox="portfolio-images">
         <div class="portfolio__img-wrapper">
@@ -14,7 +14,6 @@ function createMarkup(data) {
       </a>
     </li>
 `).join('');
-  return markup;
 }
 
 export { createMarkup };

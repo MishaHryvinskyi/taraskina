@@ -1,10 +1,12 @@
-const API = "https://taraskina-api.onrender.com/api/paints";
+import axios from "axios";
 
-async function getPaintsData() {
+const API = "https://taraskina-api.onrender.com/api/paints";
+const limitItem = 10;
+
+async function getPaintsData(page = 1) {
     try {
-      const response = await fetch(API);
-      const data = await response.json();
-      return data;
+      const response = await axios.get(`${API}?page=${page}&limit=${limitItem}`);
+      return response;
     } catch (error) {
       console.error('Помилка при завантаженні даних:', error);
     }
