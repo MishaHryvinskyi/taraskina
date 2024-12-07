@@ -8,7 +8,7 @@ const portfolioEl = document.querySelector('.portfolio__list');
 
 getPaintsData().then(data => {
   if (data && portfolioEl) {
-    const markup = createMarkup(data);
+    const markup = createMarkup(data.paints);
     portfolioEl.innerHTML = markup;
 
     const portfolioLinks = document.querySelectorAll('.portfolio__link');
