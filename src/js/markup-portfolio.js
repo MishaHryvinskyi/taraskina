@@ -3,7 +3,7 @@ function createMarkup(data) {
     <li class="portfolio__list-item">
       <a href="${url}" class="portfolio__link" data-lightbox="portfolio-images">
         <div class="portfolio__img-wrapper">
-          <img class="portfolio__img" src="${url}" alt="${name}" width="300" height="300">
+          <img class="portfolio__img" loading="lazy" src="${url}" alt="${name}" width="300" height="300">
           <div class="portfolio__overlay">
             <p class="portfolio__paragraph">${name}</p>
             <p class="portfolio__paragraph">${size}</p>
