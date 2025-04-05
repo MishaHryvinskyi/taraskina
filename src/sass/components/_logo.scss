@@ -7,8 +7,10 @@
     text-transform: uppercase;
     text-decoration: underline;
     text-align: center;
-    font-weight: 800;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
     font-size: 48px;
+    letter-spacing: 3px;
     
     transition: var(--time-delay)  var(--timing-function);
 
@@ -23,9 +25,9 @@
 
     &:hover,
     &:focus {
-        box-shadow: 0px 0px 39px 5px rgba(243,188,119,1);
-        box-shadow: 0px 0px 39px 5px rgba(243,188,119,1);
-        box-shadow: 0px 0px 39px 5px rgba(243,188,119,1);
+        box-shadow: 0px 0px 39px 5px #5c5470;;
+        box-shadow: 0px 0px 39px 5px #5c5470;;
+        box-shadow: 0px 0px 39px 5px #5c5470;;
         cursor: pointer;
     }
 }
